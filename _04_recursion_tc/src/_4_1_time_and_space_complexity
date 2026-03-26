@@ -1,0 +1,40 @@
+Time Complexity:
+It is computational time taken for algorithm to execute. Its basically represented
+
+in Asymptotic Notations.
+
+1. Big O (Widely Used) - Worst Case
+
+   Order: n! < O(2^n) < O(nlog n) < O(n) <  O(log n) < O(1)
+
+2. Theta _ Average Case
+3. Omega - Best Case
+
+Steps to find TC in F(n)?
+
+1. Find the Largest Growing Factor.
+2. Remove the constants.
+
+Eg: F(n) = n^2+4n^3+1000
+    Ans: O(n^3)
+
+Steps to find TC in Recursive F(n)?
+
+Eg: F(n) = T(n-1) + C | T(0)=1, T(1)=1
+    Ans: F(n) = T(n-k) + kC (n-k=0 => k=n)
+         F(n) = T(0) + nC
+         F(n) = 1 + nC
+    TC = O(n)
+
+Time Constraints:
+
+n<=10^4 => O(n^2)
+n<=10^6 => O(nlog n)
+n<=10^8 => O(n)
+n>10^8 => O(log n) or O(1)
+
+Space Complexity:
+It is space used by the algorithm to perform operations.
+
+Eg: n size array => O(n)
+    n size matrix => O(n^2)
