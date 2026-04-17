@@ -5,3 +5,4 @@ Module-11: Binary Search
 - On 1D Arrays
 - On Answers
 - On 2D Arrays
+Module-12:
