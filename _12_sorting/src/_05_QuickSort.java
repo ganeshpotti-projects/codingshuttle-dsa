@@ -1,5 +1,13 @@
 import java.util.Scanner;
-
+/*
+    Algorithm: T(c) - (nlog)
+    1. Assign pivot element as last element (high)
+    2. Traverse from low to high.
+    3. Any Element found less than equal to pivot swap to front indexes (0,1,i+1)
+    4. Now Swap the pivot element also wih i+1
+    5. return pivot index (i+1)
+    6. Now again apply quicksort again from 0 to pivotIndex-1 and pivotIndex+1 to high
+ */
 public class _05_QuickSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

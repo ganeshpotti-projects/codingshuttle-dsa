@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/*
+    Algorithm: T(c) - (n^2)
+    1. Compare i and i+1 elements until last and bubble out the Largest Element (inner loop)
+    2. If arr[i] > arr[i+1] swap elements
+    3. In this way traverse from n-1 to 1 (outer loop)
+ */
 public class _02_BubbleSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

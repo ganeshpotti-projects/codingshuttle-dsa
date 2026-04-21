@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/*
+    Algorithm: T(c) - (n^2)
+    1. Traverse from 1 to n-1 elements
+    2. Move the Elements to right by 1 place, until it finds its position up to first index
+    3. Insert the value stored
+ */
 public class _03_InsertionSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

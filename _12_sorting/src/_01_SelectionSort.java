@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/*
+    Algorithm: T(c) - (n^2)
+    1. Traverse elements from 0 to n-1 elements
+    2. Select(Find) the MinIndex from 1 to n-1 elements
+    3. If: arr[minIndex] < arr[0] swap
+
+ */
 public class _01_SelectionSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
